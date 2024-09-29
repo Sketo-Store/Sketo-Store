@@ -91,13 +91,19 @@ body{
     right: 0px;
 }
 
+.hero-img{
+    position: relative;
+}
 
 .start-now {
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700!important;
     padding: 14px 32px 12px !important;
-    color: var(--text)!important;
+    color: white!important;
     letter-spacing: 2px;
     position: relative;
     z-index: 1;
@@ -119,8 +125,8 @@ body{
     top: 0;
     height: 30px;
     width: 30px;
-    border-left: 2px solid var(--text);
-    border-top: 2px solid var(--text);
+    border-left: 2px solid wheat;
+    border-top: 2px solid wheat;
     content: "";
     z-index: -1;
     -webkit-transition: all, 0.7s;
@@ -143,6 +149,86 @@ body{
     transition: all, 0.7s;
 }
 
+.buy-now {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700!important;
+    padding: 14px 32px 12px !important;
+    color: black!important;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.buy-now:hover:before {
+    height: 100%;
+    width: 100%;
+}
+
+.buy-now:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
+.buy-now:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    content: "";
+    z-index: -1;
+    -webkit-transition: all, 0.7s;
+    -o-transition: all, 0.7s;
+    transition: all, 0.7s;
+}
+
+.buy-now:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    border-right: 2px solid var(--text);
+    border-bottom: 2px solid var(--text);
+    content: "";
+    z-index: -1;
+    -webkit-transition: all, 0.7s;
+    -o-transition: all, 0.7s;
+    transition: all, 0.7s;
+}
+
+
+.what-we-offer{
+    position: relative;
+}
+
+.what-we-offer::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    bottom: 45%;
+    right: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.what-we-offer::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    bottom: 45%;
+    left: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+
 .spilder3{
     width: 100%;
     position: relative;
@@ -154,6 +240,10 @@ body{
 
 .splide__arrow svg {
     fill: wheat!important;
+}
+
+.splide__pagination__page {
+    background: blue!important;
 }
 
 .out-of-stock-holder{
@@ -197,6 +287,123 @@ body{
     border-radius: 4px;
     top: 2%;
     left: 2%;
+}
+
+.left-side{
+    position: relative;
+}
+
+.offer-holder{
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    text-align: center!important;
+    font-size: larger;
+    font-family: var(--fonts);
+    font-weight: 600!important;
+    padding: 2px 7px;
+    border-radius: 4px;
+    top: 2%;
+    right: 2%;
+}
+
+#to-top{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: rgb(153, 27, 27);
+    color: rgb(254, 242, 242);
+    bottom: 25px;
+    right: 25px;
+    position: fixed;
+    cursor: pointer;
+    line-height: 38px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    display: none;
+    transition: 0s!important;
+    -webkit-transition: 0s!important;
+    -moz-transition: 0s!important;
+    -ms-transition: 0s!important;
+    -o-transition: 0s!important;
+}
+
+
+#to-top:hover{
+    background: rgb(254, 242, 242)!important;
+    color:rgb(153, 27, 27);
+}
+
+.img-prod-holder{
+    position: relative;
+}
+
+.img-holder{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 5px;
+    left: 40%;
+    z-index: 1;
+}
+
+.orange-quotes {
+    color: orangered;
+    font-family: Chonburi;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.023%;
+}
+
+.white-quotes {
+    color: gray;
+    font-family: Chonburi;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.023%;
+}
+
+.titles{
+    background-color: #e15b1398;
+}
+
+.border-custm{
+    border-radius: 35px 4px;
+}
+
+.user{
+    width: 40px;
+}
+
+.user_box {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 1);
+}
+
+.colors{
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.overview{
+    border: 1px solid rgba(128, 128, 128, 0.799);
+    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.bottom-table{
+    box-shadow: 0px 1px 2px 0px;
+    padding: 10px;
 }
 
 

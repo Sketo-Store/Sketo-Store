@@ -6,15 +6,14 @@
     <title>Sketo - سكتو</title>
     <link rel="stylesheet" href="assets/style/style.css"/>
     <link rel="icon" href=""/>
-    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <div class="sketo-text"><a class="navbar-brand sketo-text" href="index.html">Sketo</a></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,10 +25,10 @@
             <a class="nav-link fonts " aria-current="page" href="#footer">تواصل معنا</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fonts " href="#">منتجاتنا</a>
+            <a class="nav-link fonts " href="all-products.html">منتجاتنا</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link active fonts">الرئيسية</a>
+            <a href="index.html" class="nav-link active fonts">الرئيسية</a>
           </li>
         </ul>
         
@@ -43,15 +42,98 @@
 </nav>
 
 <main>
-  <section>
+  <div class="container">
+    <a href="all-products.html" class="text-black"><span class="d-flex justify-content-end align-items-end gap-2 mt-3">منتجاتنا<i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+  </div>
 
+  <section class="container mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 left-side">
+          <div class="d-flex flex-column">
+            <div class="offer-holder">
+              <span>%خصم 20</span>
+            </div>
+            <div class="d-flex flex-column mt-5 pt-3">
+              <h3 class="text-center">”هودي رمادي “ صناعة يدويه</h3>
+              <span class="text-end">الألون</span>
+              <div class="d-flex justify-content-end gap-3 mt-3">
+                <span class="colors">بيچ</span>
+                <span class="colors">أسود</span>
+                <span class="colors">أبيض</span>
+              </div>
+              <div class="text-end mt-3">
+                <span class="text-end">المقاس</span>
+                <div class="d-flex justify-content-end gap-3 mt-3">
+                  <span class="colors">Medium</span>
+                  <span class="colors">Large</span>
+                  <span class="colors">XL</span>
+                  <span class="colors">2XL</span>
+                </div>
+              </div>
+              <div class="d-flex flex-column text-center mt-5 gap-4">
+                <span class="fa-xl">450 جنيه مصري</span>
+                <del class="text-danger fa-xl">600 جنيه مصري</del>
+              </div>
+              <div class="d-flex justify-content-center mt-5">
+                <a href="#" class="buy-now">أشتري الأن</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end align-items-end right-side">
+          <div>
+            <div class="d-flex justify-content-end align-items-end">
+              <img src="assets/imgs/user-1.jpg" alt="" class="w-75">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
+  <section class="container d-flex flex-column mt-5 mb-5 overview">
+    <div class="container">
+      <div class="d-flex justify-content-end mt-3">
+        <h5>الملخص</h5>
+      </div>
+      <hr>
+      <div class="d-flex flex-column">
+        <h4 class="text-end mt-3">”هودي رمادي “ صناعة يدويه</h4>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center text-center">
+        <h5 class="text-center mb-4"><br>هودي اوفر سايز من <span class="collection-name">سكتو</span>&nbsp;</h5>
+        <p>&nbsp;</strong><br>معمول من قطن تركي معالج ضد الانكماش والوبر عالي الجودة،و ده معناه انه هيفضل مريح و متيين دايما . التصميم عبارة عن مزيج بين البساطة والإبداع.</p>
+        <p style="text-align: center;">&nbsp;  لأننا في <span class="collection-name">سكتو</span>&nbsp; عاوزين نوصل رسالة هدفها أنه ينفع تعمل حاجة ابداعيه بطريقه بسيطه مش معقده.</p>
+        <p style="text-align: center;">الهودي بتاعنا مناسب جدا للناس اللي بتحب تلبس الحاجات البسيطه الابداعيه المريحه .</p>
+        <p style="text-align: center;">ينفع تلبسه في اي مناسبه او مكان لانه بسيط و عملي&nbsp;<br>عمليه الطباعه اللي بنعملها في الديزاين بتضمن عددم بهتان او تغير لون الطباعه، وده معناه انه هيفضل معاك و صاحبك علطول</p>
+        <p style="text-align: center;">&nbsp;<br><span style="color: rgb(224, 62, 45);"><strong>: خطوات الغسيل&nbsp;</strong></span><br>غسيل ناعم بدرجة حرارة 30 درجة مئوية<br>لا تستعمل مبيض<br>لا تجففه بالمجفف<br>اكويه و هوا مقلوب&nbsp;<br>لا تستخدم التنظيف الجاف الكيميائي</p>
+      </div>
+      <div class="d-flex justify-content-between mt-5 bottom-table">
+        <div>
+          <h5 class="text-secondary" >أسود , أبيض , رصاصي</h5>
+        </div>
+        <div>
+          <h4>الالوان</h4>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between mt-3 bottom-table">
+        <div>
+          <h5 class="text-secondary" >Medium , large , XL , 2XL</h5>
+        </div>
+        <div>
+          <h4>المقاس</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container">
     <div class="mt-5">
       <div class="container d-flex justify-content-end gap-2 mb-3">
-        <a href="#" class="text-uppercase mt-2 see-all">مشاهده المزيد</a>
-        <h2>الأكثر مبيعاً</h2>
+        <a href="all-products.html" class="text-uppercase mt-2 see-all">شاهد جميع المنتجات</a>
+        <h2 class="collection-name">أشياء مشابهة</h2>
       </div>
       <div class="slider_wrapper">
         <div class="splide slider">
@@ -65,8 +147,8 @@
                   </div>
                   <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
                     <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
+                    <h5>450 L.E</h5>
+                    <del class="text-danger">600 L.E</del>
                   </div>
                 </div>
               </div>
@@ -77,8 +159,8 @@
                   </div>
                   <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
                     <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
+                    <h5>450 L.E</h5>
+                    <del class="text-danger">600 L.E</del>
                   </div>
                 </div>
               </div>
@@ -89,8 +171,8 @@
                   </div>
                   <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
                     <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
+                    <h5>450 L.E</h5>
+                    <del class="text-danger">600 L.E</del>
                   </div>
                 </div>
               </div>
@@ -101,75 +183,8 @@
                   </div>
                   <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
                     <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section>
-    <div class="mt-5">
-      <div class="container d-flex justify-content-end gap-2 mb-3">
-        <a href="#" class="text-uppercase mt-2 see-all">مشاهده المزيد</a>
-        <h2>الأكثر مبيعاً</h2>
-      </div>
-      <div class="slider_wrapper">
-        <div class="splide slider2">
-          <div class="splide__track">
-            <div class="splide__list">
-
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
+                    <h5>450 L.E</h5>
+                    <del class="text-danger">600 L.E</del>
                   </div>
                 </div>
               </div>
@@ -181,72 +196,6 @@
     </div>
   </section>
 
-  <section class="mb-5">
-    <div class="mt-5">
-      <div class="container d-flex justify-content-end gap-2 mb-3">
-        <a href="#" class="text-uppercase mt-2 see-all">مشاهده المزيد</a>
-        <h2>الأكثر مبيعاً</h2>
-      </div>
-      <div class="slider_wrapper">
-        <div class="splide slider3">
-          <div class="splide__track">
-            <div class="splide__list">
-
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-              <div class="splide__slide">
-                <div class="user_box d-flex justify-content-center align-items-center flex-column">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img src="assets/imgs/user-1.jpg" alt="" class="spilder3">
-                  </div>
-                  <div class="mt-3 d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="name">”هودي رمادي “ صناعة يدويه</h4>
-                    <h5>450 جنيه مصري</h5>
-                    <del class="text-danger">600 جنيه مصري</del>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 </main>
 
 <footer class="mt-5 pt-5 pb-3" id="footer">
@@ -254,20 +203,20 @@
     <div class="row d-flex justify-content-between">
       <div class="div col-md col-lg-2">
         <div class="lh-lg">
-          <h4 class="fonts text-black text-center">تواصل معنا</h4>
+          <h4 class="fonts text-black">تواصل معنا</h4>
           <ul class="list-unstyled footer-ul">
-            <li><a href="#" class="text-black text-center text-decoration-none"><img src="assets/imgs/wts.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
-            <li><a href="#" class="text-black text-center text-decoration-none"><img src="assets/imgs/telegram.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
-            <li><a href="#" class="text-black text-center text-decoration-none"><img src="assets/imgs/instagram.png" alt=""> <span class="ps-2">sketostore</span></a></li>
-            <li><a href="#" class="text-black text-center text-decoration-none"><img src="assets/imgs/facebook.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
-            <li><a href="#" class="text-black text-center text-decoration-none"><img src="assets/imgs/tik-tok.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
-            <li><a href="#" class="text-black text-center text-decoration-none"><img src="assets/imgs/mail.png" alt=""> <span class="ps-2">sketostore.info.com</span></a></li>
+            <li><a href="#" class="text-black text-decoration-none"><img src="assets/imgs/wts.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
+            <li><a href="#" class="text-black text-decoration-none"><img src="assets/imgs/telegram.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
+            <li><a href="#" class="text-black text-decoration-none"><img src="assets/imgs/instagram.png" alt=""> <span class="ps-2">sketostore</span></a></li>
+            <li><a href="#" class="text-black text-decoration-none"><img src="assets/imgs/facebook.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
+            <li><a href="#" class="text-black text-decoration-none"><img src="assets/imgs/tik-tok.png" alt=""> <span class="ps-2">Sketo - سكتو</span></a></li>
+            <li><a href="#" class="text-black text-decoration-none"><img src="assets/imgs/mail.png" alt=""> <span class="ps-2">sketostore.info.com</span></a></li>
           </ul>
         </div>
       </div>
       <div class="div col-md col-lg-2">
         <div class="lh-lg">
-          <h4 class="fonts text-black text-center">أكتشف المزيد</h4>
+          <h4 class="fonts text-black">أكتشف المزيد</h4>
           <ul class=" list-unstyled footer-ul">
             <li><a href="#" class="text-decoration-none text-center text-secondary">سياسة الخصوصية</a></li>
             <li><a href="#" class="text-decoration-none text-center text-secondary">سياسة الإسترجاع</a></li>
@@ -277,7 +226,7 @@
       </div>
       <div class="col-md-6 col-lg-4">
         <div>
-          <h2 class="fonts text-white text-end sketo-text">سكتو - Sketo</h2>
+          <h2 class="fonts sketo-text">Sketo - سكتو</h2>
           <p class="text-secondary text-end"></p>
         </div>
         <div class="d-flex gap-2 align-items-center">
@@ -289,7 +238,6 @@
 </footer>
 
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <script type="text/javascript">
     var splide = new Splide('.splide', {
@@ -316,60 +264,8 @@
         },
       });
       splide.mount();
-
-      var splide = new Splide('.slider2', {
-          perPage: 4,
-          perMove: 1,
-          gap: '1.5rem',
-          padding: '3rem',
-          type: 'loop',
-          drag: 'free',
-          snap: 'true',
-          arrows: 'true',
-          pagination: 'true',
-          autoplay: 'true',
-
-          breakpoints: {
-            640: {
-              perPage: 2,
-              gap: '.7rem',
-            },
-            480: {
-              perPage: 1,
-              gap: '.7rem',
-            },
-          },
-        });
-        splide.mount();
-
-        var splide = new Splide('.slider3', {
-            perPage: 4,
-            perMove: 1,
-            gap: '1.5rem',
-            padding: '3rem',
-            type: 'loop',
-            drag: 'free',
-            snap: 'true',
-            arrows: 'true',
-            pagination: 'true',
-            autoplay: 'true',
-
-            breakpoints: {
-              640: {
-                perPage: 2,
-                gap: '.7rem',
-              },
-              480: {
-                perPage: 1,
-                gap: '.7rem',
-              },
-            },
-          });
-          splide.mount();
-
-
 </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
